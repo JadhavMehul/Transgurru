@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +16,12 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <header class="fixed-top">
         <div class="header_top">
@@ -28,7 +32,7 @@
                             <img src="./img/header_logo.svg" alt="" class="img-fluid">
                         </a>
                     </div>
-                    
+
                     <div class="header_right">
                         <div class="header_dropbox">
                             <button class="btn btn_header">
@@ -73,7 +77,7 @@
                     </div>
                     <div class="header_mobo_center">
                         <!-- <button class="btn p-0"> -->
-                            <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                        <img src="./img/header_mobo.svg" alt="" class="img-fluid">
                         <!-- </button> -->
                     </div>
                     <div class="header_mobo_left">
@@ -87,7 +91,8 @@
         <div class="header_mobo_main_slide" style="display: none;">
             <div class="header_main_mobo">
                 <div class="currency_drop_div">
-                    <button class="btn btn_header me-auto" onclick="currency_drop('currency_drop2', 'currency_drop_logo2')">
+                    <button class="btn btn_header me-auto"
+                        onclick="currency_drop('currency_drop2', 'currency_drop_logo2')">
                         Our Services
                         <img src="./img/drop_icon.svg" alt="" class="img-fluid" id="currency_drop_logo2">
                     </button>
@@ -115,45 +120,172 @@
                 </div>
             </div>
         </div>
-        
-        
+
+
     </header>
 
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
+    <section class="step_one_page">
+        <div class="container p-0">
+            <div class="step_one_div">
+                <div class="step_one_left">
+                    <h1 class="step_one_left_title">
+                        Billing Details
+                    </h1>
+                    <p class="step_one_left_subtitle">What type of translation do you need?</p>
+                    <div class="translation_div">
+                        <div class="selected_translation_div">
+                            <div class="translation_radio">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                            </div>
+                            <div class="translation_content_div">
+                                <h6 class="translation_title">Certified translation</h6>
+                                <p class="translation_subtitle">Word-for-word human translation of documents with
+                                    certification for official use.</p>
+                            </div>
+                        </div>
+                        <div class="selected_translation_div">
+                            <div class="translation_radio">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                            </div>
+                            <div class="translation_content_div">
+                                <h6 class="translation_title">Standard translation</h6>
+                                <p class="translation_subtitle">Human translation of documents and text-based content
+                                    for business or personal use.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="translated_box">
+                        <p class="translated_title">What language pair do you need translated?</p>
+                        <div class="translate_dropdown_container">
+                            <div class="translated_drop_grp">
+                                <p class="translated_subtitle">Translate from</p>
+                                <div class="dropdown">
+                                    <button class="btn translated_dropdown" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        French
+                                        <img src="./img/drop_icon_blue.svg" alt="" class="img-fluid">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="translated_drop_grp">
+                                <p class="translated_subtitle">Translate to</p>
+                                <div class="dropdown">
+                                    <button class="btn translated_dropdown" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        English
+                                        <img src="./img/drop_icon_blue.svg" alt="" class="img-fluid">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="translated_box">
+                        <p class="translated_title">What language pair do you need translated?</p>
+                        <input type="text" class="form-control page_no_inp" value="3" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                        <p class="page_subbed">A page is 250 words or fewer including numbers.</p>
+                    </div>
+                    <div class="translated_box">
+                        <p class="translated_title">Upload the files you need translated</p>
+                        <div class="upload_div" onclick="field_box_file()">
+                            <p class="upload_placeholder" id="upload_placeholder">Upload document (.Docx. or PDF)</p>
+                            <img src="./img/blue_tic.svg" alt="" class="img-fluid">
+                        </div>
+                        <input type="file" class="form-control input_upload" style="display: contents;" id="document"
+                            name="document" required>
+
+                    </div>
+                    <div class="translated_box">
+                        <p class="translated_title">Upload the files you need translated</p>
+                        <textarea name="" id="" class="translate_textarea" placeholder="Type a comment"></textarea>
+
+                    </div>
+                    <div class="translated_box">
+                        <p class="translated_title">Urgent translation?</p>
+                        <div class="prz_btn_div">
+                            <button class="btn btn_blue_translated active" onclick="toggleActive(this)">
+                                No
+                            </button>
+                            <button class="btn btn_blue_translated" onclick="toggleActive(this)">
+                                24 hours (+£19.10)
+                            </button>
+                            <button class="btn btn_blue_translated" onclick="toggleActive(this)">
+                                12 hours (+£38.20)
+                            </button>
+                        </div>
+                    </div>
+                    <h4 class="translation_bottom_left_text">Estimated delivery: Tuesday, 11:00 AM</h4>
+                </div>
+                <div class="step_one_right">
+                    <h4 class="step_one_right_title">Summary</h4>
+                    <div class="divver">
+                        <div class="indivver">
+                            <p class="indivver_title">Certified Translation</p>
+                            <p class="indivver_subtitle">4 pages (1,000 words max)</p>
+                        </div>
+                        <p class="indivver_title">£99.80</p>
+                    </div>
+                    <div class="liner_step_one"></div>
+                    <div class="divver">
+                        <h4 class="step_one_right_title mb-0">Total</h4>
+                        <h4 class="step_one_right_title mb-0">£99.80</h4>
+                    </div>
+
+                    <div class="grouper">
+                        <div class="selected_translation_div_2">
+                            <div class="translation_radio_2">
+                                <img src="./img/clock.svg" alt="" class="img-fluid">
+                            </div>
+                            <div class="translation_content_div2">
+                                <h6 class="translation_title2">Est. turnaround: 48 hours</h6>
+                                <p class="translation_subtitle2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="selected_translation_div_2">
+                            <div class="translation_radio_2">
+                                <img src="./img/card.svg" alt="" class="img-fluid">
+                            </div>
+                            <div class="translation_content_div2">
+                                <h6 class="translation_title2">Easy-to-pay</h6>
+                                <p class="translation_subtitle2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="selected_translation_div_2">
+                            <div class="translation_radio_2">
+                                <img src="./img/globe.svg" alt="" class="img-fluid">
+                            </div>
+                            <div class="translation_content_div2">
+                                <h6 class="translation_title2">French to english translation</h6>
+                                <p class="translation_subtitle2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex" style="gap: 32px;">
+                        <button class="btn btn_blue_translated active w-100">
+                            Add to cart
+                        </button>
+                        <button class="btn btn_blue_global w-100">
+                            Checkout
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="container p-0">
@@ -191,44 +323,48 @@
             </div>
         </div>
     </footer>
-    
-        
-   
+
+
+
 
     <script src="./dist/js/jquery.min.js"></script>
     <script src="./dist/js/owl.carousel.js"></script>
     <!-- <script src="./dist/js/bootstrap.min.js"></script>
     <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+
     <script>
-        $(document).ready(function() {
-            $(".hamburger_menu").click(function(){
+        $(document).ready(function () {
+            $(".hamburger_menu").click(function () {
                 $(".header_mobo_main_slide").fadeIn("slow");
                 $(".hamburger_menu").fadeOut("slow");
                 $(".hamburger_menu_close").fadeIn("slow");
                 $(".header_top").addClass("gradient_border");
             });
-            $(".hamburger_menu_close").click(function(){
+            $(".hamburger_menu_close").click(function () {
                 $(".header_mobo_main_slide").fadeOut("slow");
                 $(".hamburger_menu").fadeIn("slow");
                 $(".hamburger_menu_close").fadeOut("slow");
                 $(".header_top").removeClass("gradient_border");
             });
-            $(".hamburger_cart").click(function(){
+            $(".hamburger_cart").click(function () {
                 $(".header_cart_mobo_main_slide").fadeIn("slow");
                 $(".hamburger_menu").fadeOut("slow");
                 $(".cart_menu_close").fadeIn("slow");
             });
-            $(".cart_menu_close").click(function(){
+            $(".cart_menu_close").click(function () {
                 $(".header_cart_mobo_main_slide").fadeOut("slow");
                 $(".cart_menu_close").fadeOut("slow");
                 $(".hamburger_menu").fadeIn("slow");
             });
         });
 
-        
+
 
         function currency_drop(drop_id, logo_id) {
             var a = document.getElementById(drop_id);
@@ -241,7 +377,7 @@
                 b.style.rotate = '0deg';
             }
         }
-        
+
         function desk_cart() {
             var a = document.getElementById('cart_drop');
             var b = document.getElementById('cart_btn');
@@ -254,8 +390,24 @@
             }
         }
 
+        function field_box_file() {
+            console.log('me');
+            document.getElementById('document').click();
+        }
+        $("#document").on("change", function (e) {
+            document.getElementById('upload_placeholder').innerHTML = e.target.files[0].name;
+        })
 
+        function toggleActive(button) {
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.btn.btn_blue_translated');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            // Add active class to the clicked button
+            button.classList.add('active');
+        }
     </script>
 
 </body>
+
 </html>

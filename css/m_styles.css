@@ -166,6 +166,7 @@ input[type=checkbox], input[type=radio] {
     max-width: 708px;
     margin-left: auto;
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 .my_account_right_title {
     font-family: 'Playfair Display';
@@ -606,6 +607,73 @@ input[type=checkbox], input[type=radio] {
 .grouper {
     margin-bottom: 32px;
 }
+.dashboard_pre_title {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.card_content {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #727272;
+    margin-bottom: 0px;
+    max-width: 406px;
+} 
+.pp_clicks {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #0578FE;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+.step_two_card_content_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.step_two_card_content_div img.img-fluid {
+    width: 278px;
+}
+.check_div_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.check_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
     .mobile_none {
@@ -823,11 +891,49 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
 
     }
+    .coltaro {
+        background: #090B36;
+        padding: 40px 0px;
+    }
+    .step_small {
+        font-family: 'IBM Plex Sans';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18.2px;
+        text-align: center;
+        margin-bottom: 8px;
+        color: #FFFFFF;
+    }
+    .step_big {
+        font-family: 'Playfair Display';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34.44px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+    }
 
-
-
-
-
+    .step_two_card_content_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 64px;
+    }
+    .check_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+    button.btn.btn_blue_global.ms-auto {
+        width: 100%;
+    }
 
 
 

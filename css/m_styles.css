@@ -2,6 +2,7 @@
 .desktop_none {
     display: none;
 }
+
 .mobile_none {
     display: block;
 }
@@ -10,14 +11,17 @@
 
 /* ----------------------- Checkbox ----------------------- */
 
-.c-checkbox input[type='checkbox']:checked~label:after, .c-checkbox input[type='checkbox']:checked~.label:after {
+.c-checkbox input[type='checkbox']:checked~label:after,
+.c-checkbox input[type='checkbox']:checked~.label:after {
     transform: scale(1);
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     opacity: 1;
     visibility: visible;
 }
-.c-checkbox>.c-div>label:before, .c-checkbox>.c-div>.label:before {
+
+.c-checkbox>.c-div>label:before,
+.c-checkbox>.c-div>.label:before {
     content: "";
     position: absolute;
     display: inline-block;
@@ -32,14 +36,19 @@
     top: 2px;
     left: 0px;
 }
-input[type=checkbox], input[type=radio] {
+
+input[type=checkbox],
+input[type=radio] {
     box-sizing: border-box;
     padding: 0;
 }
+
 .c-checkbox input[type='checkbox'] {
     display: none;
 }
-.c-checkbox input[type='checkbox']~label:after, .c-checkbox input[type='checkbox']~.label:after {
+
+.c-checkbox input[type='checkbox']~label:after,
+.c-checkbox input[type='checkbox']~.label:after {
     content: url(../img/filter_tic.svg);
     display: block;
     position: absolute;
@@ -67,19 +76,23 @@ input[type=checkbox], input[type=radio] {
     visibility: hidden;
     pointer-events: none;
 }
+
 .c-checkbox {
     position: relative;
     margin-bottom: 0px;
 }
+
 .login_strong {
     color: var(--Neutral-800, #3C3C3C);
     font-family: "Futura PT";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px; /* 150% */
+    line-height: 27px;
+    /* 150% */
     margin-bottom: 0px;
 }
+
 .login_strong a {
     color: var(--Functional-Info-Blue, #005BB9);
     font-family: "Futura PT";
@@ -90,9 +103,11 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 0px;
     text-decoration: none;
 }
+
 .c-text {
     margin-left: 32px;
 }
+
 .filter_main_box {
     display: flex;
     flex-direction: row;
@@ -106,12 +121,14 @@ input[type=checkbox], input[type=radio] {
 .dashboard_page {
     margin-top: 119px;
 }
+
 .dashboard_controller_links {
     gap: 32px;
     justify-content: end;
     padding: 28px 0px;
     display: flex;
 }
+
 .dashboard_controller_links .nav-link {
     padding: 0px;
     color: #0E0E0E;
@@ -123,6 +140,7 @@ input[type=checkbox], input[type=radio] {
     text-align: left;
     background: transparent;
 }
+
 .dashboard_controller_links .nav-link.active {
     padding: 0px;
     color: #0578FE;
@@ -134,14 +152,17 @@ input[type=checkbox], input[type=radio] {
     text-align: left;
     background: transparent;
 }
+
 .dashboard_element {
-    background: linear-gradient(to right, #090B36 43%, #e2edf7 43%);;
+    background: linear-gradient(to right, #090B36 43%, #e2edf7 43%);
 }
+
 .my_account_left {
     max-width: 435px;
     margin-top: 120px;
     margin-bottom: 254px;
 }
+
 .dashboard_title {
     font-family: 'Playfair Display';
     font-size: 56px;
@@ -152,6 +173,27 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 16px;
     color: #FFFFFF;
 }
+.od_dashboard_title {
+    font-family: 'Playfair Display';
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 67.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #007800;
+}
+.odf_dashboard_title {
+    font-family: 'Playfair Display';
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 67.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #C81414;
+}
+
 .dashboard_subtitle {
     font-family: 'IBM Plex Sans';
     font-size: 20px;
@@ -162,12 +204,36 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 16px;
     color: #FFFFFF;
 }
+.od_dashboard_subtitle {
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 31.66px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #656565;
+    opacity: 0.5;
+}
+.odf_dashboard_subtitle {
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 31.66px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #656565;
+    opacity: 0.5;
+}
+
 .my_account_right {
     max-width: 708px;
     margin-left: auto;
     margin-top: 120px;
     margin-bottom: 120px;
 }
+
 .my_account_right_title {
     font-family: 'Playfair Display';
     font-size: 32px;
@@ -177,6 +243,7 @@ input[type=checkbox], input[type=radio] {
     text-align: left;
     margin-bottom: 40px;
 }
+
 .my_account_right_input input {
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
@@ -190,9 +257,11 @@ input[type=checkbox], input[type=radio] {
     text-align: left;
     color: #3c3c3c;
 }
+
 .my_account_right_input {
     margin-bottom: 24px;
 }
+
 .my_account_right_input input::placeholder {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -202,11 +271,13 @@ input[type=checkbox], input[type=radio] {
     text-align: left;
     color: #3c3c3c80;
 }
+
 .my_account_btn_div {
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
+
 .btn_blue_global {
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
@@ -215,6 +286,7 @@ input[type=checkbox], input[type=radio] {
     box-shadow: 0px 100px 134px 0px rgba(3, 54, 100, 0.25), 0px 50.625px 58.416px 0px rgba(3, 54, 100, 0.17), 0px 20px 21.775px 0px rgba(3, 54, 100, 0.13), 0px 4.375px 7.747px 0px rgba(3, 54, 100, 0.08);
     color: #FFFFFF;
 }
+
 .table_head {
     font-family: 'Playfair Display';
     font-size: 20px;
@@ -226,6 +298,7 @@ input[type=checkbox], input[type=radio] {
     text-transform: capitalize;
     color: #0E0E0E;
 }
+
 .table_body_data {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -236,6 +309,7 @@ input[type=checkbox], input[type=radio] {
     color: #1F363D;
     margin-bottom: 0px;
 }
+
 .table_download_text {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -246,6 +320,7 @@ input[type=checkbox], input[type=radio] {
     color: #0578FE;
     margin-bottom: 0px;
 }
+
 .table_download_div {
     display: flex;
     flex-direction: row;
@@ -254,18 +329,23 @@ input[type=checkbox], input[type=radio] {
     gap: 9px;
     margin-right: 8px;
 }
+
 .table_div {
     border: 1px solid #D0D0D0;
 }
+
 .table_div table.table {
     margin-bottom: 0px;
 }
+
 .table_div table.table thead {
     border-bottom: 1px solid #0578FE;
 }
+
 .table_div .table>:not(caption)>*>* {
     padding: 16px 8px 16px 16px;
 }
+
 .table_div .table-striped>tbody>tr:nth-of-type(odd)>* {
     background-color: #e2edf7;
     box-shadow: none;
@@ -278,6 +358,7 @@ input[type=checkbox], input[type=radio] {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
 .step_one_div {
     display: flex;
     flex-direction: row;
@@ -285,6 +366,7 @@ input[type=checkbox], input[type=radio] {
     align-items: flex-start;
     gap: 56px;
 }
+
 .step_one_left {
     padding: 48px;
     background: #FFFFFF;
@@ -293,6 +375,7 @@ input[type=checkbox], input[type=radio] {
     max-width: 757px;
     border-radius: 10px;
 }
+
 .step_one_left_title {
     font-family: 'Playfair Display';
     font-size: 40px;
@@ -303,6 +386,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 37px;
     color: #230C0F;
 }
+
 .step_one_left_subtitle {
     font-family: 'IBM Plex Sans';
     font-size: 20px;
@@ -312,6 +396,7 @@ input[type=checkbox], input[type=radio] {
     text-align: left;
     margin-bottom: 24px;
 }
+
 .translation_title {
     font-family: 'Playfair Display';
     font-size: 28px;
@@ -322,8 +407,9 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 16px;
     color: #230C0F;
 }
+
 .translation_subtitle {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 25.33px;
@@ -332,6 +418,7 @@ input[type=checkbox], input[type=radio] {
     color: #727272;
     margin-bottom: 0px;
 }
+
 .selected_translation_div {
     display: flex;
     flex-direction: row;
@@ -341,6 +428,7 @@ input[type=checkbox], input[type=radio] {
     border: 2px solid #E7F2FF;
     background: #FBFCFF;
 }
+
 .translation_radio .form-check-input {
     width: 24px;
     height: 24px;
@@ -349,6 +437,7 @@ input[type=checkbox], input[type=radio] {
     box-shadow: none;
     background-color: #f6f6f6;
 }
+
 .translation_radio .form-check-input:checked[type=radio] {
     background-image: url(../img/blue_dot.svg);
     width: 24px;
@@ -357,12 +446,14 @@ input[type=checkbox], input[type=radio] {
     padding: 4px;
     box-shadow: none;
 }
+
 .translation_div {
     display: flex;
     gap: 16px;
     flex-direction: column;
     margin-bottom: 37px;
 }
+
 .translated_dropdown {
     background: #FFFFFF;
     padding: 12px 16px 12px 16px;
@@ -380,14 +471,17 @@ input[type=checkbox], input[type=radio] {
     display: flex;
     justify-content: space-between;
 }
+
 .translated_drop_grp {
     width: 100%;
 }
+
 .translate_dropdown_container {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
+
 .translated_title {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -398,6 +492,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 24px;
     color: #230C0F;
 }
+
 .translated_subtitle {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -408,6 +503,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 8px;
     color: #230C0F;
 }
+
 .page_no_inp {
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
@@ -417,9 +513,11 @@ input[type=checkbox], input[type=radio] {
     background-repeat: no-repeat;
     color: #0478FF;
 }
+
 .translated_box {
     margin-bottom: 37px;
 }
+
 .page_subbed {
     font-family: 'DM Sans';
     font-size: 16px;
@@ -429,7 +527,7 @@ input[type=checkbox], input[type=radio] {
     color: #727272;
     margin-bottom: 0px;
     margin-top: 3px;
-} 
+}
 
 .upload_div {
     display: flex;
@@ -442,6 +540,7 @@ input[type=checkbox], input[type=radio] {
     border-radius: 4px;
     border: 1px solid #0478FF;
 }
+
 .upload_placeholder {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -452,6 +551,7 @@ input[type=checkbox], input[type=radio] {
     color: #0578FE;
     margin-bottom: 0px;
 }
+
 .translate_textarea {
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
@@ -459,6 +559,7 @@ input[type=checkbox], input[type=radio] {
     width: 100%;
     height: 139px;
 }
+
 .translate_textarea::placeholder {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -469,6 +570,7 @@ input[type=checkbox], input[type=radio] {
     color: #3C3C3C;
     opacity: 0.5;
 }
+
 .btn_blue_translated {
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
@@ -483,6 +585,7 @@ input[type=checkbox], input[type=radio] {
     color: #FFFFFF;
     width: 100%;
 }
+
 .btn_blue_translated.active {
     padding: 14px 32px 14px 32px;
     border-radius: 4px;
@@ -498,6 +601,22 @@ input[type=checkbox], input[type=radio] {
     width: 100%;
     border: 1px solid #0578FE;
 }
+
+.btn_trans {
+    padding: 14px 32px 14px 32px;
+    border-radius: 4px;
+    border: 1px;
+    background: #E7F2FF;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #0578FE;
+    border: 1px solid #0578FE;
+}
+
 .prz_btn_div {
     display: flex;
     flex-direction: row;
@@ -505,6 +624,7 @@ input[type=checkbox], input[type=radio] {
     align-items: center;
     gap: 24px;
 }
+
 .translation_bottom_left_text {
     font-family: 'Playfair Display';
     font-size: 32px;
@@ -514,6 +634,7 @@ input[type=checkbox], input[type=radio] {
     text-align: center;
     margin-bottom: 0px;
 }
+
 .step_one_right_title {
     font-family: 'Playfair Display';
     font-size: 32px;
@@ -524,6 +645,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 32px;
     color: #230C0F;
 }
+
 .step_one_right {
     padding: 48px;
     border-radius: 10px;
@@ -531,6 +653,7 @@ input[type=checkbox], input[type=radio] {
     width: 100%;
     max-width: 636px;
 }
+
 .indivver_title {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -541,6 +664,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 8px;
     color: #230C0F;
 }
+
 .indivver_subtitle {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -551,6 +675,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 0px;
     color: #727272;
 }
+
 .divver {
     display: flex;
     flex-direction: row;
@@ -558,17 +683,20 @@ input[type=checkbox], input[type=radio] {
     align-items: flex-start;
     margin-bottom: 32px;
 }
+
 .liner_step_one {
     width: 100%;
     height: 1px;
     margin-bottom: 32px;
     background: #C5C5C5;
 }
+
 .grouper {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+
 .selected_translation_div_2 {
     display: flex;
     flex-direction: row;
@@ -576,14 +704,17 @@ input[type=checkbox], input[type=radio] {
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .translation_radio_2 {
     width: 24px;
     height: 24px;
 }
+
 .translation_radio_2 img {
     width: 24px;
     height: 24px;
 }
+
 .translation_title2 {
     font-family: 'IBM Plex Sans';
     font-size: 20px;
@@ -594,6 +725,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 8px;
     color: #230C0F;
 }
+
 .translation_subtitle2 {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -604,9 +736,11 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 0px;
     color: #727272;
 }
+
 .grouper {
     margin-bottom: 32px;
 }
+
 .dashboard_pre_title {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -615,6 +749,23 @@ input[type=checkbox], input[type=radio] {
     text-align: left;
     color: #FFFFFF;
 }
+.od_dashboard_pre_title {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+    color: #007800;
+}
+.odf_dashboard_pre_title {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+    color: #C81414;
+}
+
 .card_content {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -625,7 +776,8 @@ input[type=checkbox], input[type=radio] {
     color: #727272;
     margin-bottom: 0px;
     max-width: 406px;
-} 
+}
+
 .pp_clicks {
     font-family: 'IBM Plex Sans';
     font-size: 16px;
@@ -637,6 +789,7 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 0px;
     text-decoration: none;
 }
+
 .step_two_card_content_div {
     display: flex;
     flex-direction: row;
@@ -645,9 +798,11 @@ input[type=checkbox], input[type=radio] {
     gap: 24px;
     margin-bottom: 24px;
 }
+
 .step_two_card_content_div img.img-fluid {
     width: 278px;
 }
+
 .check_div_left {
     display: flex;
     flex-direction: row;
@@ -655,6 +810,7 @@ input[type=checkbox], input[type=radio] {
     align-items: center;
     gap: 16px;
 }
+
 .check_div {
     display: flex;
     flex-direction: row;
@@ -663,13 +819,134 @@ input[type=checkbox], input[type=radio] {
     margin-bottom: 24px;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
 
+.discount_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
 
+.taboti {
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 31.66px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 24px;
+}
 
+.taboti span {
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.66px;
+    letter-spacing: 0.02em;
+    text-align: left;
 
+}
 
+.cart_section {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
 
+.cart_internal {
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
+.cart_mocart_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit_text {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #1F363D;
+    margin: 0px;
+}
+
+.border_line {
+    border: 1px solid #D2DFC5;
+}
+
+.cart_upper_body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cart_upper_title {
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.44px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0px;
+}
+
+.cart_upper_subtitle {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0px;
+}
+
+.cart_bottom_left {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0px;
+}
+
+.cart_bottom_right {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0px;
+}
+
+.cart_bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.od_dashboard_element {
+    background: linear-gradient(to right, #F2FEF1 43%, #FFFFFF 43%);
+}
+.od_my_account_right .table_div .table>:not(caption)>*>* {
+    border-bottom-width: 0px;
+}
+.odf_dashboard_element {
+    background: linear-gradient(to right, #FAE8E8 43%, #FFFFFF 43%);
+}
+.odf_my_account_right .table_div .table>:not(caption)>*>* {
+    border-bottom-width: 0px;
+}
 
 
 
@@ -679,25 +956,32 @@ input[type=checkbox], input[type=radio] {
     .mobile_none {
         display: none;
     }
+
     .desktop_none {
         display: block;
     }
-    
-    
+
+
     /* ----------------------- Checkbox ----------------------- */
     .c-checkbox {
         margin-bottom: 0px;
     }
-    .c-checkbox>.c-div>label:before, .c-checkbox>.c-div>.label:before {
+
+    .c-checkbox>.c-div>label:before,
+    .c-checkbox>.c-div>.label:before {
         top: 2px;
     }
-    .c-checkbox input[type='checkbox']~label:after, .c-checkbox input[type='checkbox']~.label:after {
+
+    .c-checkbox input[type='checkbox']~label:after,
+    .c-checkbox input[type='checkbox']~.label:after {
         top: 3px;
         font-size: 30px;
     }
+
     .c-text {
         width: unset;
     }
+
     .filter_main_box {
         display: flex;
         flex-direction: row;
@@ -711,9 +995,17 @@ input[type=checkbox], input[type=radio] {
     .my_account_left {
         display: none;
     }
+
     .dashboard_element {
         background: #e2edf7;
     }
+    .od_dashboard_element {
+        background: #FFFFFF;
+    }
+    .odf_dashboard_element {
+        background: #FFFFFF;
+    }
+
     .my_account_right {
         max-width: 708px;
         margin-left: 12px;
@@ -721,6 +1013,7 @@ input[type=checkbox], input[type=radio] {
         margin-right: 12px;
         margin-bottom: 40px;
     }
+
     .my_account_right_title {
         font-family: 'Playfair Display';
         font-size: 28px;
@@ -731,6 +1024,7 @@ input[type=checkbox], input[type=radio] {
 
         margin-bottom: 32px;
     }
+
     .dashboard_controller_links {
         gap: 32px;
         justify-content: flex-start;
@@ -741,29 +1035,37 @@ input[type=checkbox], input[type=radio] {
         padding-left: 24px;
         padding-right: 24px;
     }
+
     .my_account_btn_div {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
     }
+
     .dashboard_page {
         margin-top: 80px;
     }
+
     .table_head {
         width: max-content;
     }
+
     .table_body_data {
         width: max-content;
-    } 
+    }
+
     .table_download_text {
         width: max-content;
     }
+
     .table_download_div {
         width: max-content;
     }
+
     .me-mo-0 {
         margin-right: 0px;
     }
+
     .pe-mo-0 {
         padding-right: 0px;
     }
@@ -776,12 +1078,14 @@ input[type=checkbox], input[type=radio] {
         max-width: 757px;
         border-radius: 10px;
     }
+
     .step_one_page {
         margin-top: 80px;
         background: #e2edf7;
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
     .step_one_left_title {
         font-family: 'Playfair Display';
         font-size: 36px;
@@ -791,6 +1095,7 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
         margin-bottom: 24px;
     }
+
     .step_one_left_subtitle {
         font-family: 'IBM Plex Sans';
         font-size: 20px;
@@ -800,6 +1105,7 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
         margin-bottom: 24px;
     }
+
     .translation_title {
         font-family: 'Playfair Display';
         font-size: 20px;
@@ -809,6 +1115,7 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
         margin-bottom: 16px;
     }
+
     .translation_subtitle {
         font-family: 'IBM Plex Sans';
         font-size: 16px;
@@ -817,9 +1124,11 @@ input[type=checkbox], input[type=radio] {
         letter-spacing: 0.02em;
         text-align: left;
     }
+
     .translation_div {
         margin-bottom: 24px;
     }
+
     .translated_title {
         font-family: IBM Plex Sans;
         font-size: 16px;
@@ -829,11 +1138,13 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
         margin-bottom: 24px;
     }
+
     .translate_dropdown_container {
         display: flex;
         flex-direction: column;
         gap: 24px;
     }
+
     .translated_subtitle {
         font-family: 'IBM Plex Sans';
         font-size: 16px;
@@ -843,6 +1154,7 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
         margin-bottom: 7px;
     }
+
     .prz_btn_div {
         display: flex;
         flex-direction: column;
@@ -850,6 +1162,7 @@ input[type=checkbox], input[type=radio] {
         align-items: center;
         gap: 24px;
     }
+
     .step_one_div {
         display: flex;
         flex-direction: column;
@@ -857,6 +1170,7 @@ input[type=checkbox], input[type=radio] {
         align-items: flex-start;
         gap: 0px;
     }
+
     .step_one_right {
         padding: 24px;
         border-radius: 10px;
@@ -869,10 +1183,12 @@ input[type=checkbox], input[type=radio] {
         width: 24px;
         height: 24px;
     }
+
     .translation_radio_2 img {
         width: 24px;
         height: 24px;
     }
+
     .translation_title2 {
         font-family: 'IBM Plex Sans';
         font-size: 20px;
@@ -882,6 +1198,7 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
 
     }
+
     .translation_subtitle2 {
         font-family: 'IBM Plex Sans';
         font-size: 16px;
@@ -891,10 +1208,20 @@ input[type=checkbox], input[type=radio] {
         text-align: left;
 
     }
+
     .coltaro {
         background: #090B36;
         padding: 40px 0px;
     }
+    .od_coltaro {
+        background: #F2FEF1;
+        padding: 40px 0px;
+    }
+    .odf_coltaro {
+        background: #FAE8E8;
+        padding: 40px 0px;
+    }
+
     .step_small {
         font-family: 'IBM Plex Sans';
         font-size: 14px;
@@ -904,6 +1231,7 @@ input[type=checkbox], input[type=radio] {
         margin-bottom: 8px;
         color: #FFFFFF;
     }
+
     .step_big {
         font-family: 'Playfair Display';
         font-size: 28px;
@@ -914,6 +1242,46 @@ input[type=checkbox], input[type=radio] {
         margin-bottom: 0px;
         color: #FFFFFF;
     }
+    .odf_step_small {
+        font-family: 'IBM Plex Sans';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18.2px;
+        text-align: center;
+        margin-bottom: 8px;
+        color: #C81414;
+    }
+
+    .odf_step_big {
+        font-family: 'Playfair Display';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34.44px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #C81414;
+    }
+    .od_step_small {
+        font-family: 'IBM Plex Sans';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18.2px;
+        text-align: center;
+        margin-bottom: 8px;
+        color: #007800;
+    }
+
+    .od_step_big {
+        font-family: 'Playfair Display';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34.44px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #007800;
+    }
 
     .step_two_card_content_div {
         display: flex;
@@ -923,6 +1291,7 @@ input[type=checkbox], input[type=radio] {
         gap: 16px;
         margin-bottom: 64px;
     }
+
     .check_div {
         display: flex;
         flex-direction: column;
@@ -931,14 +1300,32 @@ input[type=checkbox], input[type=radio] {
         margin-bottom: 24px;
         align-items: center;
     }
+
     button.btn.btn_blue_global.ms-auto {
         width: 100%;
     }
-
-
-
-
-
+    .discount_container {
+        flex-direction: column;
+        gap: 6px;
+        padding: 0 12px;
+        margin-bottom: 24px;
+    }
+    .taboti {
+        margin-bottom: 0px;
+        font-size: 16px;
+    } 
+    .taboti span {
+        font-size: 16px;
+    } 
+    .discount_container2 {
+        flex-direction: row;
+    }
+    .wakati {
+        width: 100%;
+    }
+    .mo-mb-0 {
+        margin-bottom: 0px;
+    }
 
 
 
@@ -951,25 +1338,45 @@ input[type=checkbox], input[type=radio] {
     .dashboard_element {
         background: linear-gradient(to right, #090B36 37%, #e2edf7 37%);
     }
+    .od_dashboard_element {
+        background: linear-gradient(to right, #F2FEF1 37%, #FFFFFF 37%);
+    }
+    .odf_dashboard_element {
+        background: linear-gradient(to right, #FAE8E8 37%, #FFFFFF 37%);
+    }
     .my_account_right {
         max-width: 595px;
         margin-left: auto;
         margin-top: 120px;
     }
 }
+
 @media only screen and (min-width: 1152px) and (max-width:1279px) {
     .dashboard_element {
         background: linear-gradient(to right, #090B36 37%, #e2edf7 37%);
     }
+    .od_dashboard_element {
+        background: linear-gradient(to right, #F2FEF1 37%, #FFFFFF 37%);
+    }
+    .odf_dashboard_element {
+        background: linear-gradient(to right, #FAE8E8 37%, #FFFFFF 37%);
+    }
     .my_account_right {
         max-width: 595px;
         margin-left: auto;
         margin-top: 120px;
     }
 }
+
 @media only screen and (min-width: 1280px) and (max-width:1348px) {
     .dashboard_element {
         background: linear-gradient(to right, #090B36 37%, #e2edf7 37%);
+    }
+    .od_dashboard_element {
+        background: linear-gradient(to right, #F2FEF1 37%, #FFFFFF 37%);
+    }
+    .odf_dashboard_element {
+        background: linear-gradient(to right, #FAE8E8 37%, #FFFFFF 37%);
     }
 }
 
@@ -977,24 +1384,20 @@ input[type=checkbox], input[type=radio] {
     .dashboard_element {
         background: linear-gradient(to right, #090B36 37%, #e2edf7 37%);
     }
+    .od_dashboard_element {
+        background: linear-gradient(to right, #F2FEF1 37%, #FFFFFF 37%);
+    }
+    .odf_dashboard_element {
+        background: linear-gradient(to right, #FAE8E8 37%, #FFFFFF 37%);
+    }
 }
 
-@media only screen and (min-width: 1440px) and (max-width:1499px) {
-    
-}
+@media only screen and (min-width: 1440px) and (max-width:1499px) {}
 
-@media only screen and (min-width: 1500px) and (max-width:1599px) {
-    
-}
+@media only screen and (min-width: 1500px) and (max-width:1599px) {}
 
-@media only screen and (min-width: 1600px) and (max-width:1699px) {
-    
-}
+@media only screen and (min-width: 1600px) and (max-width:1699px) {}
 
-@media only screen and (min-width: 1700px) and (max-width:1799px) {
-    
-}
+@media only screen and (min-width: 1700px) and (max-width:1799px) {}
 
-@media only screen and (min-width: 1800px) and (max-width:1919px) {
-    
-}
+@media only screen and (min-width: 1800px) and (max-width:1919px) {}

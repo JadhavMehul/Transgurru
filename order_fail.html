@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transgurru</title>
+
+    <!-- Style Sheets -->
+
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/m_styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="fixed-top">
+        <div class="header_top">
+            <div class="container desktop_header p-0">
+                <div class="header_main_container">
+                    <div class="header_left">
+                        <a href="./index.html">
+                            <img src="./img/header_logo.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="header_right">
+                        <div class="header_dropbox">
+                            <button class="btn btn_header">
+                                Our Services
+                                <img src="./img/drop_icon.svg" alt="">
+                            </button>
+                            <div class="header_dropdown">
+
+                            </div>
+                        </div>
+                        <button class="btn btn_header">
+                            Our story
+                        </button>
+                        <button class="btn btn_header">
+                            Join us
+                        </button>
+                        <button class="btn btn_header">
+                            FAQs
+                        </button>
+                        <button class="btn btn_header">
+                            Get in touch
+                        </button>
+                        <div class="header_btn_box">
+                            <button class="btn btn_header_right_btn">My account</button>
+                            <button class="btn btn_header_right_btn">Basket (0)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile_header">
+                <div class="header_mobo_main">
+                    <div class="header_mobo_right">
+                        <div class="hamburger_menu">
+                            <img src="./img/hamburger_logo.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="hamburger_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="cart_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="header_mobo_center">
+                        <!-- <button class="btn p-0"> -->
+                        <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                        <!-- </button> -->
+                    </div>
+                    <div class="header_mobo_left">
+                        <button class="btn p-0">
+                            <img src="./img/cart_mobo.svg" alt="" class="img-fluid">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_mobo_main_slide" style="display: none;">
+            <div class="header_main_mobo">
+                <div class="currency_drop_div">
+                    <button class="btn btn_header me-auto"
+                        onclick="currency_drop('currency_drop2', 'currency_drop_logo2')">
+                        Our Services
+                        <img src="./img/drop_icon.svg" alt="" class="img-fluid" id="currency_drop_logo2">
+                    </button>
+                    <div class="currency_drop d-none" id="currency_drop2">
+                        <button class="btn btn_header">Certified translation</button>
+                        <button class="btn btn_header">Standard Translation</button>
+                        <button class="btn btn_header">Supported translation</button>
+                    </div>
+                </div>
+                <button class="btn btn_header">
+                    Our Story
+                </button>
+                <button class="btn btn_header">
+                    Join Us
+                </button>
+                <button class="btn btn_header">
+                    FAQs
+                </button>
+                <button class="btn btn_header">
+                    Get In Touch
+                </button>
+                <div class="header_btn_box">
+                    <button class="btn btn_header_right_btn">My account</button>
+                    <button class="btn btn_header_right_btn">Basket (0)</button>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="dashboard_page">
+        <div class="desktop_none odf_coltaro">
+            <div class="container">
+                <p class="odf_step_small">Success!</p>
+                <p class="odf_step_big">Order Complete</p>
+            </div>
+        </div>
+        <div class="odf_dashboard_element">
+            <div class="container p-0">
+
+                <div class="row m-0">
+                    <div class="col-md-4">
+                        <div class="my_account_left">
+                            <p class="odf_dashboard_pre_title">Success!</p>
+                            <h1 class="odf_dashboard_title">Order Complete</h1>
+                            <p class="odf_dashboard_subtitle">
+                                Vel tellus gravida aliquam urna. Non eget id eget posuere. Integer dolor facilis est
+                                libero blandit. Vulputate a orci sit id mauris scelerisque porta erat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="my_account_right odf_my_account_right">
+                                <div class="table_div mb-40">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col"><p class="table_head">service</p></th>
+                                                    <th scope="col"><p class="table_head">Description</p></th>
+                                                    <th scope="col"><p class="table_head">date</p></th>
+                                                    <th scope="col"><p class="table_head">Total</p></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row"><p class="table_body_data">Translate</p></th>
+                                                    <td><p class="table_body_data">Turnaround: 6 days Quality: Excellent</p></td>
+                                                    <td><p class="table_body_data">09/09/2022</p></td>
+                                                    <td><p class="table_body_data">£60.00</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><p class="table_body_data">Translate</p></th>
+                                                    <td><p class="table_body_data">Turnaround: 6 days Quality: Excellent</p></td>
+                                                    <td><p class="table_body_data">09/09/2022</p></td>
+                                                    <td><p class="table_body_data">£60.00</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><p class="table_body_data">Translate</p></th>
+                                                    <td><p class="table_body_data">Turnaround: 6 days Quality: Excellent</p></td>
+                                                    <td><p class="table_body_data">09/09/2022</p></td>
+                                                    <td><p class="table_body_data">£60.00</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"><p class="table_body_data">Translate</p></th>
+                                                    <td><p class="table_body_data">Turnaround: 6 days Quality: Excellent</p></td>
+                                                    <td><p class="table_body_data">09/09/2022</p></td>
+                                                    <td><p class="table_body_data">£60.00</p></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            
+                            <div class="discount_container discount_container2">
+                                <p class="taboti">Subtotal: £4,000</p>
+                                <p class="taboti">Grand Total: <span>£4,000</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container p-0">
+            <div class="footer_main">
+                <div class="footer_left">
+                    <img src="./img/footer_logo.svg" alt="" class="img-fluid">
+                    <p class="footer_copyright">© 2024 TransGurru, All rights reserved</p>
+                    <img src="./img/mastercard.png" alt="" class="img-fluid mobile_none">
+                </div>
+                <div class="footer_right">
+                    <div class="footer_right_l">
+                        <p class="footer_titles">Sitemap</p>
+                        <div class="footer_right_l_footer_link_div">
+                            <div class="footer_link_div">
+                                <a href="" class="footer_links">Our Services</a>
+                                <a href="" class="footer_links">Our Story</a>
+                                <a href="" class="footer_links">Join Us</a>
+                            </div>
+                            <div class="footer_link_div">
+                                <a href="" class="footer_links">Get in Touch</a>
+                                <a href="" class="footer_links">My Account</a>
+                                <a href="" class="footer_links">Basket</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_right_r">
+                        <p class="footer_titles">Legal</p>
+                        <div class="footer_link_div">
+                            <a href="" class="footer_links">Terms & Conditions</a>
+                            <a href="" class="footer_links">Privacy Policy</a>
+                            <a href="" class="footer_links">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/owl.carousel.js"></script>
+    <!-- <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".hamburger_menu").click(function () {
+                $(".header_mobo_main_slide").fadeIn("slow");
+                $(".hamburger_menu").fadeOut("slow");
+                $(".hamburger_menu_close").fadeIn("slow");
+                $(".header_top").addClass("gradient_border");
+            });
+            $(".hamburger_menu_close").click(function () {
+                $(".header_mobo_main_slide").fadeOut("slow");
+                $(".hamburger_menu").fadeIn("slow");
+                $(".hamburger_menu_close").fadeOut("slow");
+                $(".header_top").removeClass("gradient_border");
+            });
+            $(".hamburger_cart").click(function () {
+                $(".header_cart_mobo_main_slide").fadeIn("slow");
+                $(".hamburger_menu").fadeOut("slow");
+                $(".cart_menu_close").fadeIn("slow");
+            });
+            $(".cart_menu_close").click(function () {
+                $(".header_cart_mobo_main_slide").fadeOut("slow");
+                $(".cart_menu_close").fadeOut("slow");
+                $(".hamburger_menu").fadeIn("slow");
+            });
+        });
+
+
+
+        function currency_drop(drop_id, logo_id) {
+            var a = document.getElementById(drop_id);
+            var b = document.getElementById(logo_id);
+            if (a.classList.contains('d-none')) {
+                a.classList.remove('d-none');
+                b.style.rotate = '180deg';
+            } else {
+                a.classList.add('d-none')
+                b.style.rotate = '0deg';
+            }
+        }
+
+        function desk_cart() {
+            var a = document.getElementById('cart_drop');
+            var b = document.getElementById('cart_btn');
+            if (a.classList.contains('d-none')) {
+                a.classList.remove('d-none');
+                b.classList.add('active');
+            } else {
+                a.classList.add('d-none');
+                b.classList.remove('active');
+            }
+        }
+    </script>
+
+</body>
+
+</html>

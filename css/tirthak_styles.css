@@ -13,7 +13,7 @@
 
 .extra_div {
     height: 40px;
-    color: #E3EDF7;
+    background: #E3EDF7;
 }
 
 .selected_translation_div {
@@ -146,6 +146,7 @@
     line-height: 20.8px;
     text-align: left;
     margin-bottom: 0;
+    text-transform: capitalize;
 
 }
 
@@ -158,6 +159,7 @@
     letter-spacing: 0.02em;
     text-align: left;
     margin-bottom: 0;
+    text-transform: capitalize;
 
 }
 
@@ -170,6 +172,7 @@
     letter-spacing: 0.02em;
     text-align: left;
     margin-bottom: 0;
+    text-transform: capitalize;
 
 }
 
@@ -182,6 +185,7 @@
     letter-spacing: 0.02em;
     text-align: left;
     margin-bottom: 0;
+    width: 541px;
 
 }
 
@@ -224,6 +228,7 @@
     background: linear-gradient(268deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 52.74%), linear-gradient(270deg, #0478FF 0%, #0478FF 100%);
     box-shadow: 0px 100px 134px 0px rgba(3, 54, 100, 0.25), 0px 50.625px 58.416px 0px rgba(3, 54, 100, 0.17), 0px 20px 21.775px 0px rgba(3, 54, 100, 0.13), 0px 4.375px 7.747px 0px rgba(3, 54, 100, 0.08);
     color: #FFFFFF;
+    text-transform: capitalize;
 }
 
 .rdmor {
@@ -366,6 +371,7 @@ margin-bottom: 0;
     display: flex;
     flex-direction: row;
     gap: 24px;
+    width: 585px;
 }
 
 .left_bb {
@@ -373,6 +379,12 @@ margin-bottom: 0;
     flex-direction: column;
     gap: 24px;
     width: 320px;
+}
+.left_bb_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 275px;
 }
 
 .right_bb {
@@ -384,6 +396,11 @@ margin-bottom: 0;
 
 .right_2 {
     padding: 40px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+.right_2_2 {
     display: flex;
     gap: 40px;
 }
@@ -576,7 +593,7 @@ color: #9B9B9B;
 
 
 .section6040 {
-    padding: 60px 0px;
+    padding: 58px 0px;
 }
 
 .inn_6040 {
@@ -863,10 +880,13 @@ margin-bottom: 40px;
 .faq_title {
 
     color: #000000;
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 0;
-    font-family: Playfair Display;
+font-family: Playfair Display;
+font-size: 32px;
+font-weight: 400;
+line-height: 38.4px;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 
 }
 
@@ -993,6 +1013,7 @@ margin-bottom: 40px;
     line-height: 34.44px;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 0;
 
 }
 
@@ -1433,35 +1454,41 @@ input[type=radio] {
     }
 
     .section2,
-    .right_2,
+    .right_2,.right_2_2
     .ok_left {
-        padding: 0;
+        padding: unset;
 
     }
     .ok_left  {
         align-items: normal;
+        padding: unset;
     }
 
     .trial_bulllet {
+        width: auto;
         display: flex;
         flex-direction: column;
         gap: 28px;
     }
 
-    .left_bb,
+    .left_bb,.left_bb_2,
     .right_bb {
         width: auto;
         align-items: center;
     }
-    .left_bb {
+    .left_bb,.left_bb_2 {
         gap: 28px;
     }
 
-    .right_2 {
+    .right_2,.right_2_2 {
         display: flex;
-        gap: 40px;
+        gap: 24px;
         flex-direction: column;
         width: 100%;
+        padding: 24px 24px 40px 24px;
+    }
+    .first_col {
+        gap: 24px;
     }
 
     .innn_col {
@@ -1477,9 +1504,7 @@ input[type=radio] {
         gap: 0;
     }
 
-    .right_2 {
-        padding: 16px 24px 40px 24px;
-    }
+   
 
     .right_3 {
         width: auto;
@@ -1557,6 +1582,7 @@ input[type=radio] {
         line-height: 25.33px;
         letter-spacing: 0.02em;
         text-align: left;
+        width: auto;
 
     }
 
@@ -1714,10 +1740,14 @@ input[type=radio] {
     .faq_title {
 
         color: #000000;
-        font-size: 20px;
-        font-weight: 400;
-        margin-bottom: 0;
-        font-family: IBM Plex Sans;
+font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+
 
     }
 
@@ -1762,9 +1792,9 @@ input[type=radio] {
 
 
     .contact-container {
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 24px;
         max-width: 324px;
     }
 
@@ -1784,13 +1814,12 @@ input[type=radio] {
     }
     
     .box_tt {
-font-family: Playfair Display;
-font-size: 32px;
-font-weight: 400;
-line-height: 38.4px;
-letter-spacing: 0.02em;
-text-align: left;
-
+        font-family: Playfair Display;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38.4px;
+        letter-spacing: 0.02em;
+        text-align: center;
         margin-bottom: 0;
         color: #0E0E0E;
     }

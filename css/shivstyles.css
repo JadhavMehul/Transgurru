@@ -64,88 +64,92 @@
 
 /*terms-section*/
 
-.terms-section{
-     background: #E7F2FF;
-     position: relative;
+.terms-section {
+    background: #E7F2FF;
+    position: relative;
     display: flex;
     margin-top: 119px;
     padding: 80px 0px;
-    
-}
-.terms-container{
-display: flex;
-flex-direction: column;
-gap: 32px;
-max-width: 891px;
 
 }
 
-.terms-title{
-font-family: Playfair Display;
-font-size: 72px;
-font-weight: 400;
-line-height: 82.8px;
-letter-spacing: 0.02em;
-text-align: left;
-
-}
-.mob-termstitle{
-font-family: Playfair Display;
-font-size: 28px;
-font-weight: 400;
-line-height: 34.44px;
-letter-spacing: 0.02em;
-text-align: left;
+.terms-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 891px;
 
 }
 
-.mob-termstitle{
+.terms-title {
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.mob-termstitle {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.44px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.mob-termstitle {
     display: none;
 }
-.terms-text{
-font-family: IBM Plex Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 25.33px;
-letter-spacing: 0.02em;
-text-align: left;
-margin: 0px;
+
+.terms-text {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 0px;
 
 }
 
 /*contactus*/
-.contact-section{
+.contact-section {
     background: #E7F2FF;
     position: relative;
-   display: flex;
-   margin-top: 119px;
-   padding: 80px 0px;
-   
+    display: flex;
+    margin-top: 119px;
+    padding: 80px 0px;
+
 }
 
 
-.contact-container{
+.contact-container {
     display: inline-flex;
     flex-direction: column;
     gap: 40px;
     max-width: 708px;
 }
 
-.contact-title{
-font-family: Playfair Display;
-font-size: 56px;
-font-weight: 400;
-line-height: 67.2px;
-letter-spacing: 0.02em;
-text-align: center;
+.contact-title {
+    font-family: Playfair Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 67.2px;
+    letter-spacing: 0.02em;
+    text-align: center;
 
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
     gap: 24px
 }
+
 .text-field {
     display: flex;
     align-items: flex-start;
@@ -153,34 +157,36 @@ text-align: center;
     align-self: stretch;
 }
 
-.input-field{
-padding: 12px 16px 12px 16px;
-gap: 8px;
-border-radius: 4px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-background: #FFFFFF;
-font-family: IBM Plex Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 25.33px;
-letter-spacing: 0.02em;
-text-align: left;
+.input-field {
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
 
 
 }
-.input-field-m{
+
+.input-field-m {
     padding: 12px 16px 12px 16px;
-gap: 8px;
-border-radius: 4px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-background: #FFFFFF;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
 
     width: 100%;
     height: 200px;
 }
-.input-field-m::placeholder{
+
+.input-field-m::placeholder {
     font-family: IBM Plex Sans;
     font-size: 16px;
     font-weight: 400;
@@ -188,7 +194,8 @@ background: #FFFFFF;
     letter-spacing: 0.02em;
     text-align: left;
 }
-.input-field::placeholder{
+
+.input-field::placeholder {
     font-family: IBM Plex Sans;
     font-size: 16px;
     font-weight: 400;
@@ -198,17 +205,17 @@ background: #FFFFFF;
 
 }
 
-.contact-mobtitle{
-font-family: Playfair Display;
-font-size: 28px;
-font-weight: 400;
-line-height: 34.44px;
-letter-spacing: 0.02em;
-text-align: center;
+.contact-mobtitle {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.44px;
+    letter-spacing: 0.02em;
+    text-align: center;
 
 }
 
-.contact-mobtitle{
+.contact-mobtitle {
     display: none;
 }
 
@@ -234,3 +241,368 @@ text-align: center;
     display: flex;
     align-self: center;
 }
+
+
+/*login popup*/
+.login_title {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 0px;
+
+}
+
+.login-text {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 0px;
+    color: #00000099;
+
+}
+
+.signup_link {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.login-info {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.login-mobo {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.login-reginfo {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.login_mobtitle {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.44px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 0px;
+
+}
+
+.captcha-mob {
+    display: none;
+}
+
+.login-mobtext {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 0px;
+    color: #00000099;
+}
+
+.agree-text {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 0px;
+    color: #00000099;
+
+}
+
+.login-mobo {
+    display: none;
+}
+
+.forgot_modal_body {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    max-width: 422px;
+}
+
+.input-form {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.popup-input-field {
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    border: 1px solid var(--Grey-light, #D0D0D0);
+
+}
+
+.forgot-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_text {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.forgot_modal_infobar {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+
+/*checkbox*/
+.check-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox {
+    display: flex;
+    /*width: 375px;*/
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.captcha_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+
+
+.c-checkboxF input[type='checkbox']:checked~label:after,
+.c-checkboxF input[type='checkbox']:checked~.label:after {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.c-checkboxF>.c-divF>label:before,
+.c-checkboxF>.c-divF>.label:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #F4F4F4;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 4px;
+    top: 4px;
+    left: 0px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.c-checkboxF input[type='checkbox'] {
+    display: none;
+}
+
+.c-checkboxF input[type='checkbox']~label:after,
+.c-checkboxF input[type='checkbox']~.label:after {
+    content: '✔';
+    display: block;
+    position: absolute;
+    color: #0E0E0E !important;
+    border-radius: 0px;
+    border: 0;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    text-align: center;
+    line-height: 12px;
+    height: 1px;
+    width: 1px;
+    left: 5px;
+    top: 5px;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -webkit-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    transition: all .15s ease;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.c-checkboxF {
+    position: relative;
+}
+
+/*popup end here*/
+
+
+/*joinus-section2 */
+.joinus-sec2 {
+    margin-top: 119px;
+}
+
+.job-form {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 712px;
+}
+
+.label-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-text {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #230C0F;
+    margin: 0px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+    display: flex;
+}
+
+.inputfile+label {
+    cursor: pointer;
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px solid #D0D0D0;
+    opacity: 0px;
+    background: #FFFFFF;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.upload_label {
+    display: flex;
+    height: 51.33px;
+}
+
+.form-label {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #3C3C3C;
+
+}
+
+.text-field-ques {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    width: 100%;
+}
+
+.services-txt {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #230C0F;
+    margin: 0px;
+}
+
+.option-div {
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+
+}
+
+.checkbox-joinus {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.captcha-field {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.joinus-img {
+    width: 100%;
+    ;
+}
+
+/*joinus -section2 end here*/

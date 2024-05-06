@@ -1,85 +1,157 @@
 @media only screen and (max-width: 600px) {
-.error-title{
-    font-family: Playfair Display;
-font-size: 160px;
-font-weight: 400;
-line-height: 224px;
-letter-spacing: 0.02em;
-text-align: left;
+    .error-title {
+        font-family: Playfair Display;
+        font-size: 160px;
+        font-weight: 400;
+        line-height: 224px;
+        letter-spacing: 0.02em;
+        text-align: left;
 
 
-}
-.error-subtitle{
-font-family: IBM Plex Sans;
-font-size: 20px;
-font-weight: 300;
-line-height: 31.66px;
-letter-spacing: 0.02em;
-text-align: center;
-width: 314px;
+    }
+
+    .error-subtitle {
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 31.66px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        width: 314px;
 
 
-}
-.error-section{
-    background-image: url(../img/errormob.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    position: relative;
-    display: flex;
-    margin-top: 80px;
-    padding: 32px 0px 114px 0px;
-}
+    }
 
-.error-container{
-    max-width: 327px;
-}
+    .error-section {
+        background-image: url(../img/errormob.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        position: relative;
+        display: flex;
+        margin-top: 80px;
+        padding: 32px 0px 114px 0px;
+    }
 
-/*terms&conditions*/
+    .error-container {
+        max-width: 327px;
+    }
 
-.terms-section{
-    padding: 40px 0px;
-    margin-top: 80px;
-}
-.terms-container{
-    max-width: 327px;
-}
-.mob-termstitle{
-    display: block;
-}
-.terms-title{
-    display: none;
-}
+    /*terms&conditions*/
 
+    .terms-section {
+        padding: 40px 0px;
+        margin-top: 80px;
+    }
 
-.contact-mobtitle{
-    display: block;
-}
+    .terms-container {
+        max-width: 327px;
+    }
 
-.contact-section{
-    background: #E7F2FF;
-    position: relative;
-   display: flex;
-   margin-top: 80px;
-   padding: 40px 24px;
-   
-}
+    .mob-termstitle {
+        display: block;
+    }
+
+    .terms-title {
+        display: none;
+    }
 
 
-.contact-container{
-    display: inline-flex;
-    flex-direction: column;
-    gap: 40px;
-    max-width: 324px;
-}
-.text-field {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    align-self: stretch;
-}
-.contact-title{
-    display: none;
-}
+    .contact-mobtitle {
+        display: block;
+    }
+
+    .contact-section {
+        background: #E7F2FF;
+        position: relative;
+        display: flex;
+        margin-top: 80px;
+        padding: 40px 24px;
+
+    }
+
+
+    .contact-container {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+        max-width: 324px;
+    }
+
+    .text-field {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .contact-title {
+        display: none;
+    }
+
+    /*login popup*/
+    .login-mobo {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .captcha {
+        display: none;
+    }
+
+    .captcha-mob {
+        display: block;
+    }
+
+    .login-info {
+        display: none;
+    }
+
+    .login-reginfo {
+        display: none;
+    }
+
+    .forgot_modal_body {
+        padding: 24px;
+        max-width: 328px;
+    }
+
+    /*popup*/
+
+
+    /*joinus-section2*/
+    .joinus-sec2 {
+        margin-top: 80px;
+    }
+
+    .job-form {
+        padding: 40px 24px;
+        max-width: 375px;
+    }
+
+    .form-text {
+        width: auto;
+    }
+
+    .services-txt {
+        text-align: start;
+    }
+
+    .option-div {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+
+    }
+
+    .captcha-field {
+        flex-direction: column;
+    }
+
+    .agree-text {
+        max-width: 276px;
+    }
+
 }

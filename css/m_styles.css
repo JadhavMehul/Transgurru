@@ -526,7 +526,7 @@ input[type=radio] {
     text-align: left;
     color: #727272;
     margin-bottom: 0px;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 
 .upload_div {
@@ -1327,9 +1327,26 @@ input[type=radio] {
         margin-bottom: 0px;
     }
 
-
-
-
+    .translated_box {
+        margin-bottom: 24px;
+    }
+    .translation_bottom_left_text {
+        color: var(--Core-Licorice, #230C0F);
+        font-family: "Playfair Display";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 123%; /* 34.44px */
+        letter-spacing: 0.56px;
+        text-transform: capitalize;
+        text-align: left;
+    }
+    .mantris .my_account_right_input {
+        margin-bottom: 16px;
+    }
+    .cart_section {
+        margin-bottom: 24px;
+    }
 }
 
 

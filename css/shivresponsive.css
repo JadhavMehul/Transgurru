@@ -1,36 +1,43 @@
 @media only screen and (max-width: 600px) {
     .error-title {
-        font-family: Playfair Display;
+        color: #000;
+        font-family: "Playfair Display";
         font-size: 160px;
+        font-style: normal;
         font-weight: 400;
-        line-height: 224px;
-        letter-spacing: 0.02em;
-        text-align: left;
-
-
+        line-height: 140%;
+        letter-spacing: 3.2px;
+        text-transform: capitalize;
     }
 
     .error-subtitle {
-        font-family: IBM Plex Sans;
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 31.66px;
-        letter-spacing: 0.02em;
+        color: #000;
         text-align: center;
-        width: 314px;
-
-
+        font-family: "IBM Plex Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 158.312%;
+        letter-spacing: 0.4px;
     }
 
     .error-section {
-        background-image: url(../img/errormob.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
         position: relative;
         display: flex;
         margin-top: 80px;
-        padding: 32px 0px 114px 0px;
+        padding: 38px 0px 111px 0px;
+    }
+
+    .bg-image:not([class*=absolute]) {
+        position: absolute;
+    }
+
+    .bg-image {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
     }
 
     .error-container {
@@ -40,7 +47,7 @@
     /*terms&conditions*/
 
     .terms-section {
-        padding: 40px 0px;
+        padding: 32px 0px;
         margin-top: 80px;
     }
 

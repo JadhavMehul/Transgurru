@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/m_styles.css">
+    <link rel="stylesheet" href="./css/shivstyles.css">
+    <link rel="stylesheet" href="./css/shivresponsive.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,19 +30,15 @@
                             <img src="./img/header_logo.svg" alt="" class="img-fluid">
                         </a>
                     </div>
-                    
+
                     <div class="header_right">
                         <div class="header_dropbox">
-                            <div class="dropdown">
-                                <button class="btn btn_header" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Our Services
-                                    <img src="./img/drop_icon.svg" alt="">
-                                </button>
-                                <div class="dropdown-menu">
-                                    <button class="btn btn_header">Certified&nbsp;translation</button>
-                                    <button class="btn btn_header">Standard&nbsp;Translation</button>
-                                    <button class="btn btn_header">Supported&nbsp;translation</button>
-                                </div>
+                            <button class="btn btn_header">
+                                Our Services
+                                <img src="./img/drop_icon.svg" alt="">
+                            </button>
+                            <div class="header_dropdown">
+
                             </div>
                         </div>
                         <button class="btn btn_header">
@@ -56,7 +54,8 @@
                             Get in touch
                         </button>
                         <div class="header_btn_box">
-                            <button class="btn btn_header_right_btn">My account</button>
+                            <button class="btn btn_header_right_btn" data-bs-toggle="modal" data-bs-target="#myModal">My
+                                account</button>
                             <button class="btn btn_header_right_btn">Basket (0)</button>
                         </div>
                     </div>
@@ -77,7 +76,7 @@
                     </div>
                     <div class="header_mobo_center">
                         <!-- <button class="btn p-0"> -->
-                            <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                        <img src="./img/header_mobo.svg" alt="" class="img-fluid">
                         <!-- </button> -->
                     </div>
                     <div class="header_mobo_left">
@@ -91,7 +90,8 @@
         <div class="header_mobo_main_slide" style="display: none;">
             <div class="header_main_mobo">
                 <div class="currency_drop_div">
-                    <button class="btn btn_header me-auto" onclick="currency_drop('currency_drop2', 'currency_drop_logo2')">
+                    <button class="btn btn_header me-auto"
+                        onclick="currency_drop('currency_drop2', 'currency_drop_logo2')">
                         Our Services
                         <img src="./img/drop_icon.svg" alt="" class="img-fluid" id="currency_drop_logo2">
                     </button>
@@ -114,14 +114,107 @@
                     Get In Touch
                 </button>
                 <div class="header_btn_box">
-                    <button class="btn btn_header_right_btn">My account</button>
+                    <button class="btn btn_header_right_btn" data-bs-toggle="modal" data-bs-target="#myModal">My
+                        account</button>
                     <button class="btn btn_header_right_btn">Basket (0)</button>
                 </div>
             </div>
         </div>
-        
-        
     </header>
+
+    <!-- login Modal Start-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered forgot_modal_outline" style="justify-content: center;">
+            <div class="modal-content forgot_modal_content" style="width: auto; border-radius: 0px;">
+                <div class="modal-body forgot_modal_body">
+                    <button type="btn close_button" data-bs-dismiss="modal"
+                        style="height: 24px; width: 24px; padding: 0px; background-color: transparent; border: none; position: absolute;top: 16px; right: 16px; "><img
+                            src="./img/close.svg" class="img-fluid"></button>
+                    <div class="login-info">
+                        <h3 class="login_title">Sign In</h3>
+                        <p class="login-text">Sign in to your account using email and password provided during
+                            registration.<br>
+                            If you don’t have an account <a class="signup_link" data-bs-toggle="modal"
+                                data-bs-target="#myModal1">sign up here</a></p>
+                    </div>
+                    <div class="login-mobo">
+                        <h6 class="login_mobtitle">Sign In</h6>
+                        <p class="login-mobtext">Sign in to your account using email and password provided during
+                            registration.<br>
+                            If you don’t have an account <a class="signup_link" data-bs-toggle="modal"
+                                data-bs-target="#myModal1">sign up here</a></p>
+                    </div>
+                    <div class="forgot_modal_infobar">
+                        <form class="input-form w-100">
+                            <input type="email" class="input-field" placeholder="Email">
+                            <input type="password" class="input-field" placeholder="Password">
+                        </form>
+                        <div class="forgot-section">
+                            <a class="link_text">Forgot password?</a>
+                            <button type="button" class="btn submit-btn">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--login modal End-->
+    <!--register Modal Start-->
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog modal-dialog-centered forgot_modal_outline" style="justify-content: center;">
+            <div class="modal-content forgot_modal_content" style="width: auto; border-radius: 0px;">
+                <div class="modal-body forgot_modal_body">
+                    <button type="btn close_button" data-bs-dismiss="modal"
+                        style="height: 24px; width: 24px; background-color: transparent; border: none; position: absolute;top: 4px; right: 7px; "><img
+                            src="./img/close.svg" class="img-fluid"></button>
+                    <div class="login-reginfo">
+                        <h3 class="login_title">Register</h3>
+                        <p class="login-text">Already have an account? <a class="signup_link" data-bs-toggle="modal"
+                                data-bs-target="#myModal">Sign in here </a></p>
+                    </div>
+                    <div class="login-mobo">
+                        <h6 class="login_mobtitle">Register</h6>
+                        <p class="login-mobtext">Already have an account? <br><a class="signup_link"
+                                data-bs-toggle="modal" data-bs-target="#myModal">Sign in here </a></p>
+                    </div>
+                    <div class="forgot_modal_infobar">
+                        <form class="input-form w-100">
+                            <input type="text" class="input-field" placeholder="Full name">
+                            <input type="email" class="input-field" placeholder="Email">
+                            <input type="password" class="input-field" placeholder="Password">
+                            <input type="password" class="input-field" placeholder="Confirm Password">
+                        </form>
+                        <div class="check-box">
+                            <div class="checkbox">
+                                <div class="c-checkboxF mb-0">
+                                    <div class="c-divF">
+                                        <label class="d-flex justify-content-center justify-content-lg-start">
+                                            <input type="checkbox" id="terms" name="terms">
+                                            <label for="terms"></label>
+                                        </label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <p class="login-text">I agree with the <a class="link_text">Terms & Conditions</a> &<a
+                                    class="link_text"> Privacy Policy</a></p>
+                        </div>
+                    </div>
+                    <div class="forgot-section">
+                        <div class="captcha">
+                            <img src="./img/captcha.png" class="img-fluid">
+                        </div>
+                        <div class="captcha-mob">
+                            <img src="./img/captcha-mob.png" class="img-fluid">
+                        </div>
+                        <button type="button" class="btn submit-btn">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Register Modal End-->
 
    <br>
    <br>

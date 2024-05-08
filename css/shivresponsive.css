@@ -1,0 +1,164 @@
+@media only screen and (max-width: 600px) {
+    .error-title {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 160px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 3.2px;
+        text-transform: capitalize;
+    }
+
+    .error-subtitle {
+        color: #000;
+        text-align: center;
+        font-family: "IBM Plex Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 158.312%;
+        letter-spacing: 0.4px;
+    }
+
+    .error-section {
+        position: relative;
+        display: flex;
+        margin-top: 80px;
+        padding: 38px 0px 111px 0px;
+    }
+
+    .bg-image:not([class*=absolute]) {
+        position: absolute;
+    }
+
+    .bg-image {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .error-container {
+        max-width: 327px;
+    }
+
+    /*terms&conditions*/
+
+    .terms-section {
+        padding: 32px 0px;
+        margin-top: 80px;
+    }
+
+    .terms-container {
+        max-width: 327px;
+    }
+
+    .mob-termstitle {
+        display: block;
+    }
+
+    .terms-title {
+        display: none;
+    }
+
+
+    .contact-mobtitle {
+        display: block;
+    }
+
+    .contact-section {
+        background: #E7F2FF;
+        position: relative;
+        display: flex;
+        margin-top: 80px;
+        padding: 40px 24px;
+
+    }
+
+
+    .contact-container {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+        max-width: 324px;
+    }
+
+    .text-field {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .contact-title {
+        display: none;
+    }
+
+    /*login popup*/
+    .login-mobo {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .captcha {
+        display: none;
+    }
+
+    .captcha-mob {
+        display: block;
+    }
+
+    .login-info {
+        display: none;
+    }
+
+    .login-reginfo {
+        display: none;
+    }
+
+    .forgot_modal_body {
+        padding: 24px;
+        max-width: 328px;
+    }
+
+    /*popup*/
+
+
+    /*joinus-section2*/
+    .joinus-sec2 {
+        margin-top: 80px;
+    }
+
+    .job-form {
+        padding: 40px 24px;
+        max-width: 375px;
+    }
+
+    .form-text {
+        width: auto;
+    }
+
+    .services-txt {
+        text-align: start;
+    }
+
+    .option-div {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+
+    }
+
+    .captcha-field {
+        flex-direction: column;
+    }
+
+    .agree-text {
+        max-width: 276px;
+    }
+
+}
